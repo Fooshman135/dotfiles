@@ -4,9 +4,17 @@
 
 - clean: ['~']
 
+
+# NOTE: For any link below with nothing to the right of the colon, it acts like you've copied what is on
+#     the left side of the colon and then pasted it on the right side but with the dot missing.
+# For example:
+#       ~/.zshrc:
+#   ...is idential to writing...
+#       ~/.zshrc: zshrc
+
 - link:
-#     ~/.vim: vim
-    ~/.zshrc: zshrc
+    ~/.zshrc:
+    ~/.gitconfig:
 
 - create:
     - ~/Work

@@ -1,0 +1,17 @@
+[alias]
+	l = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	s = status -sb
+
+[user]
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGdrDKYhNI2HnI6zLI3J3IbLXo88vNO7/WXlw2yZtC/r
+  name = Ben Katz
+  email = 6639918+Fooshman135@users.noreply.github.com
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
